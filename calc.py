@@ -1,4 +1,4 @@
-def compute(string)
+def compute(operator):
     """Perform simple arithmetic based on string 
    _input.
 	example: '5+7 -> 12'
@@ -12,5 +12,6 @@ def compute(string)
     elif operator == '-':
         return num0 - num1
     else:
-        msg = f'Unknown operator: "{operator}"'        
+        msg = f'Unknown operator: "{operator}"\n'
+	msg += 'Choose from "+" and "-".'
 	raise ValueError(msg)	
