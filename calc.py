@@ -1,4 +1,4 @@
-def compute(operator):
+def compute(string):
     """Perform simple arithmetic based on string 
    _input.
 	example: '5+7 -> 12'
