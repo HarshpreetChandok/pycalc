@@ -11,6 +11,8 @@ def compute(string):
         return num0 + num1
     elif operator == '-':
         return num0 - num1
+    elif operator == '*':
+        return num0 * num1
     else:
         msg = f'Unknown operator: "{operator}"\n'
 	msg += 'Choose from "+" and "-".'
