@@ -1,6 +1,5 @@
 def compute(string):
-    """Perform simple arithmetic based on string
-   _input.
+    """Psimple calculator all basic operators and both integers and decimals.
 	example: '5+7 -> 12'
     """
     values = string.split('')
